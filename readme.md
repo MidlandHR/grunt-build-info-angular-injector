@@ -54,6 +54,6 @@ The target file for the provider. This will be created, you will still have to i
 
 These are the command line parameters which you can call grunt with to be injected into the provider.
 
-*buildNumber e.g. --buildNumber=21
-*buildName e.g. --buildName=dev
-*branch e.g. --branch=master
+* buildNumber e.g. --buildNumber=21
+* buildName e.g. --buildName=dev
+* branch e.g. --branch=master
