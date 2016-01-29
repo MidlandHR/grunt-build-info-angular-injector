@@ -1,0 +1,15 @@
+{
+  "name": "grunt-build-info-angular-injector",
+  "version": "1.0.0",
+  "description": "Allows you to pass compile time variables to grunt which will then get injected into angular for usage at runtime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "angular"
+  ],
+  "author": "Anthony Cleaver",
+  "license": "ISC"
+}
