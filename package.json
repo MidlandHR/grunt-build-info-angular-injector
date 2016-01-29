@@ -10,6 +10,9 @@
     "grunt",
     "angular"
   ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
   "author": "Anthony Cleaver",
   "license": "ISC"
 }
