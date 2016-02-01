@@ -23,7 +23,7 @@ module.exports = function(grunt) {
     };
 
     var loadProviderTemplate = function() {
-        return grunt.file.read(__dirname + '/buildInformationProvider.js');
+        return grunt.file.read(__dirname + '/../buildInformationProvider.js');
     };
 
     var interpolate = function(template, interpolation) {
