@@ -13,7 +13,7 @@ $ npm install grunt-build-info-angular-injector --save
 grunt.loadNpmTasks('grunt-build-info-angular-injector');
 
 grunt.initConfig({
-  buildInfoAngularInjector: {
+  injectBuildInfo: {
     module: 'my.angular.module',
     providerName: 'myBuildInfoProvider',
     target: 'src/buildInfoService.js'
