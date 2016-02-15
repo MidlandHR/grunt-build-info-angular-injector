@@ -20,7 +20,7 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('default', ['buildInfoAngularInjector']);
+grunt.registerTask('default', ['injectBuildInfo']);
 
 grunt default --buildNumber=${env:BUILD_NUMBER} --branch=${env:GIT_BRANCH} --buildName=${env:JOB_NAME}
 ```
